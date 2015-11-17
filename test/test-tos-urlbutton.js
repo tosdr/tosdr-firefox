@@ -8,7 +8,7 @@ const { setTimeout } = require('sdk/timers');
 
 const database = require('./service/database');
 
-const { button } = require('./tos-urlbutton');
+const { button } = require('./tos-button');
 const { iconURL } = require('./ratings');
 
 // This is the iPhone captive portal test page, its fast and simple to load

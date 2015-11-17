@@ -7,8 +7,7 @@
 "use strict";
 		
 require('./lib/service/setup');
-require('./lib/tos-panel');
-require('./lib/tos-urlbutton');
+require('./lib/tos-button');
 require('./lib/tos-notifications');
 const { log } = require('./lib/utils/log');
 
