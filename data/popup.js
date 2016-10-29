@@ -178,8 +178,12 @@ self.port.on('service', function onMessage(serviceData) {
     //Modal-body
     $('#page').append($("<div>", {class : 'modal-body'})
       .append($("<div>", {class : 'tosdr-rating' })
-      .append($("<h4>", { text : 'Not rated, yet.'}))
-      .append($("<p>",{ text : 'Write an email to tosdr@googlegroups.com with a link to the terms, a small quote from the terms about the point you‘re making and let us know if you think it‘s a good or a bad point. It‘s better to do one email thread by topic, rather than one email per service. For more details, read on!' , class : 'lbldesc'})))
+        .append($("<h4>", { text : 'Not rated, yet.'}))
+        .append($("<p>", { text : 'The Terms of Service of this website have not been rated yet. You can help by submitting the URL of this website to ToS;DR, or by making remarks about specific parts of it!' , class : 'lbldesc'}))
+        .append($("<a>", { href : 'https://tosdr.org/get-involved.html', target : '_blank', class : 'lbldesc'})
+          .append($("<button>", { type : 'button', text : 'Contribute'}))
+        )
+      )
     );
 
     // send close message to hide the panel
