@@ -231,7 +231,7 @@ function initializePageAction(tab) {
 					tabId: tab.id,
 					popup: 'popup/popup.html#none'
 				})
-				browser.pageAction.show(tab.id);
+				browser.pageAction.hide(tab.id);
 			}
 		});
 		
