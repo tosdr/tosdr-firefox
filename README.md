@@ -1,1 +1,1 @@
-Moved, see https://github.com/tosdr/browser-extension
+Moved, see https://github.com/tosdr/browser-extensions
